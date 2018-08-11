@@ -14,7 +14,7 @@ queryanalyse
 项目状态
 ===
 正常维护。
-需要本机或者服务安装MYSQL。
+需要本机或者服务器安装MYSQL。
 
 * 已测试环境
     * Python 2.7, 3.4+
@@ -54,7 +54,7 @@ shell> python queryanalyse.py -td=bd -tt=table  -path=/mysqllog/ -f=mysql-bin.00
 
 	**** 总条数为 18070
 
-	**** 输出路径 /mysqllog/mysql-bin.000268.log
+	**** 输出路径 /mysqllog/268.txt
 
 	******************************************************************************
 
