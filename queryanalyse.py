@@ -133,7 +133,7 @@ class queryanalyse:
                     # print bline.replace("\n", "")
                     out_sql = out_sql + bline
 
-                if isEnd and ((self.search_td != '' and db_name == self.search_td) or (self.search_tb != '' and tb_name == self.search_tb)):
+                if isEnd and (self.search_tb == '' or self.search_td == '' or (self.search_td != '' and db_name == self.search_td) or (self.search_tb != '' and tb_name == self.search_tb)):
                     out_file.write(out_sql)
                     self.total_num = self.total_num + 1
                     # print out_sql
